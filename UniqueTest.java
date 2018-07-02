@@ -7,4 +7,4 @@ public class UniqueTest {
 		Unique application = new Unique();
 		application.getNumbers();
 	} // end main
-} // this isn't even remotely fun
+} // end class
