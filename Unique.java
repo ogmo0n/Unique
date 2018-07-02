@@ -1,12 +1,12 @@
 // CIS218 Final Exam
-// Let's try to knock this crap out
+// Let's knock this out of the park!
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Unique {
-	// initialize the damn array
+	// initialize the array
 	int[] array = new int[5]; 
-	// whatever this is
+	// method to obtain user input
 	public void getNumbers() {
 		// initialize new Scanner object
 		Scanner input = new Scanner(System.in);
@@ -37,7 +37,7 @@ public class Unique {
 					for (int j = 0; j < i; j++) {
 						if (temp != array[j]) {
 							array[i] = temp;
-							// printNumbers(array);
+							// printNumbers(array); // used for testing
 						} else {
 							System.out.println(temp + " has already been entered");
 							i -= 1;
